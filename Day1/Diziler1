@@ -1,0 +1,20 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] ogrenciler = new String[];
+		
+		ogrenciler[0] = "Gizem"; 
+		ogrenciler[1] = "Yasin"; 
+		ogrenciler[2] = "Ayşe"; 
+		ogrenciler[3] = "Hilal"; 
+		ogrenciler[4] = "Tuğçe"; 
+		
+		for(int i = 0; i < ogrenciler.length; i++) {
+			
+			System.out.println(ogrenciler[i]);
+		}
+	}
+
+}
